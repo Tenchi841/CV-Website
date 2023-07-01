@@ -1,2 +1,30 @@
 <style>
-</style>
+			
+		p{ 
+			font-family:roboto, ariel;
+			background-color: grey;
+			}
+			
+		.h1 {
+			text-align: center;
+			}
+			
+			.button {
+				color: blue;
+				background-color:yellow;
+				font-family:roboto, ariel;
+				box-shaddow: 5px,5px,5px,black;
+				hover: cursor;
+				align:top;
+				}
+			
+		.nav {
+			width:100px;
+			display: inline-block;
+		}
+		
+		.main {
+			width: 200px;
+			display: inline-block;
+		}
+		</style>
