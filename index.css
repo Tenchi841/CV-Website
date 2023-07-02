@@ -19,12 +19,19 @@
 				}
 			
 		.nav {
+			position: fixed;
+			top: 0;
+			left: 0;
+			bottom: 0;
 			width:100px;
-			display: inline-block;
+			display: flex;
+			background-color: grey;
 		}
 		
 		.main {
 			width: 200px;
-			display: inline-block;
+			display: flex;
+			padding-left: 100px;
 		}
+		
 		</style>
