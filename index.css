@@ -1,11 +1,6 @@
 <style>
 			
-		p{ 
-			font-family:roboto, ariel;
-			background-color: grey;
-			}
-			
-		.h1 {
+		.main {
 			font-family:roboto, ariel;
 			text-align: center;
 			}
@@ -19,9 +14,8 @@
 				align:top;
 				}
 				
-			.profile-pic {
+			.image {
 			display: block;
-			flex: 1;
 			width: 25px;
 			height: 25px;
 			border-radius: 5px;
@@ -31,16 +25,16 @@
 			position: fixed;
 			top: 0;
 			left: 0;
-			bottom: 0;
-			width:65px;
+			right: 0;
+			height: 50px;
 			display: flex;
 			background-color: grey;
 		}
 		
 		.main {
-			width: 200px;
 			display: flex;
-			padding-left: 100px;
+			padding-left: 10px;
+			padding-right: 10px;
 		}
 		
 		</style>
