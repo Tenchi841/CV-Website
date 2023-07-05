@@ -8,6 +8,7 @@
 			height: 50px;
 			display: flex;
 			background-color: grey;
+			padding-bottom:50px;
 		}
 			
 			.button {
