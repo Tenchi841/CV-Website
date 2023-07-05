@@ -1,7 +1,7 @@
 <style>
 			
 			.nav {
-			position: fixed;
+			position: absolute;
 			top: 0;
 			left: 0;
 			right: 0;
@@ -11,12 +11,12 @@
 		}
 			
 			.button {
-				color: blue;
-				background-color:yellow;
-				font-family:roboto, ariel;
+				color: white;
+				background-color:dark grey;
+				font-family:roboto, arial;
 				box-shaddow: 5px,5px,5px,black;
 				hover: cursor;
-				align:top;
+				align:center;
 				}
 				
 			.image {
@@ -28,7 +28,7 @@
 
 		
 		.main {
-			font-family:roboto, ariel;
+			font-family:roboto, arial;
 			text-align: center;
 			display: block;
 			padding-top: 10px;
