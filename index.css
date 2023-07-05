@@ -9,15 +9,23 @@
 			display: flex;
 			background-color: grey;
 			padding-bottom:50px;
-		}
+			}
 			
 			.button {
+			color: white;
+			background-color:dark grey;
+			font-family:roboto, arial;
+			box-shaddow: 5px,5px,5px,black;
+			hover: cursor;
+			align:center;
+			}
+				
+				.title {
+				font-family: roboto, arial;
+				font-size: 14px;
+				background-color: light grey;
 				color: white;
-				background-color:dark grey;
-				font-family:roboto, arial;
-				box-shaddow: 5px,5px,5px,black;
-				hover: cursor;
-				align:center;
+				display: flex;
 				}
 				
 			.image {
