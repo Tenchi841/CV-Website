@@ -13,7 +13,7 @@
 			
 			.button {
 			color: white;
-			background-color:dark grey;
+			background-color: grey;
 			font-family:roboto, arial;
 			box-shaddow: 5px,5px,5px,black;
 			hover: cursor;
@@ -23,14 +23,14 @@
 				.title {
 				font-family: roboto, arial;
 				font-size: 14px;
-				background-color: light grey;
+				background-color: grey;
 				color: white;
 				display: flex;
 				}
 				
 			.image {
 			display: block;
-			width: 10%;
+			width: 25px;
 			border-radius: 5px;
 			}
 		
@@ -39,7 +39,7 @@
 			font-size: 10px;
 			text-align: center;
 			color: white;
-			background-color: dark grey;
+			background-color: grey;
 			display: block;
 			padding-top: 10px;
 			padding-left: 10px;
