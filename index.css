@@ -1,9 +1,14 @@
 <style>
 			
-		.main {
-			font-family:roboto, ariel;
-			text-align: center;
-			}
+			.nav {
+			position: fixed;
+			top: 0;
+			left: 0;
+			right: 0;
+			height: 50px;
+			display: flex;
+			background-color: grey;
+		}
 			
 			.button {
 				color: blue;
@@ -16,25 +21,19 @@
 				
 			.image {
 			display: block;
-			width: 25px;
-			height: 25px;
+			width: 10%;
 			border-radius: 5px;
 			}
 			
-		.nav {
-			position: fixed;
-			top: 0;
-			left: 0;
-			right: 0;
-			height: 50px;
-			display: flex;
-			background-color: grey;
-		}
+
 		
 		.main {
-			display: flex;
+			font-family:roboto, ariel;
+			text-align: center;
+			display: block;
+			padding-top: 10px;
 			padding-left: 10px;
 			padding-right: 10px;
-		}
+			}
 		
 		</style>
