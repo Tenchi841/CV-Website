@@ -44,6 +44,8 @@
 			
 			.me {
 			position: fixed;
+			top: 150px;
+			align: center;
 			width: 25px;
 			height:25px;
 			}
@@ -56,6 +58,7 @@
 			background-color: grey;
 			display: flex;
 			flex-direction:column;
+			margin-top:75px;
 			padding-top: 10px;
 			padding-left: 10px;
 			padding-right: 10px;
