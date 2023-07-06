@@ -1,4 +1,8 @@
 <style>
+
+			body{
+			background-color: grey;
+			}
 			
 			.nav {
 			position: absolute;
@@ -29,8 +33,9 @@
 				}
 				
 			.image {
-			display: block;
-			width: 25px;
+			display: flex;
+			flex-direction: column;
+			max-width: 25px;
 			border-radius: 5px;
 			}
 		
@@ -40,7 +45,7 @@
 			text-align: center;
 			color: white;
 			background-color: grey;
-			display: block;
+			display: flex;
 			padding-top: 10px;
 			padding-left: 10px;
 			padding-right: 10px;
