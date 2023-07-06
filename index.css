@@ -40,6 +40,11 @@
 			max-width: 25px;
 			border-radius: 5px;
 			}
+			
+			.me {
+			width: 25px;
+			height:25px;
+			}
 		
 		.main {
 			font-family:roboto, arial;
