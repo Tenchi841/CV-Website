@@ -1,6 +1,6 @@
 <style>
 
-			body{
+			.body{
 			background-color: grey;
 			}
 			
@@ -22,8 +22,7 @@
 			background-color: grey;
 			font-family:roboto, arial;
 			box-shaddow: 5px,5px,5px,black;
-			hover: cursor;
-			align:center;
+			border-radius:5px;
 			}
 				
 				.title {
@@ -32,16 +31,19 @@
 				background-color: grey;
 				color: white;
 				display: flex;
+				flex: 1;
+				align:center;
 				}
 				
 			.image {
 			display: flex;
-			flex-direction: column;
-			max-width: 25px;
+			flex: 1;
+			width:100%;
 			border-radius: 5px;
 			}
 			
 			.me {
+			position: fixed;
 			width: 25px;
 			height:25px;
 			}
@@ -53,10 +55,11 @@
 			color: white;
 			background-color: grey;
 			display: flex;
+			flex-direction:column;
 			padding-top: 10px;
 			padding-left: 10px;
 			padding-right: 10px;
-			height: 100px;
+			width: 200px;
 			}
 		
 		</style>
