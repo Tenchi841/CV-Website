@@ -32,7 +32,8 @@
 				color: white;
 				display: flex;
 				flex: 1;
-				align:center;
+				flex-direction:row;
+				items-align: center;
 				}
 				
 			.image {
