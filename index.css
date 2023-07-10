@@ -1,7 +1,11 @@
 <style>
 
 			body{
-			background-color: grey
+			background-color: grey;
+			}
+			
+			header{
+			background-color: grey;
 			}
 			
 			.nav {
