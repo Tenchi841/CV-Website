@@ -1,268 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Thomas's Page</title>
-    <link rel="stylesheet" href="styles.css">
-    <style>/* Reset some default styles for better consistency */
-        body, h1, h2, h3, p {
-            margin: 0;
-            padding: 0;
-        }
-        
-        /* Set a background color and text color */
-        body {
-            background-color: #f0f0f0;
-            color: #333;
-            font-family: Arial, sans-serif;
-        }
-        
-        /* Add a container for your content */
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-        
-        /* Style the header section */
-        header {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 30px 0;
-        }
-        
-        header h1 {
-            font-size: 36px;
-            margin-bottom: 10px;
-        }
-        
-        header p {
-            font-size: 18px;
-        }
-        
-        /* Style navigation links */
-        nav {
-            text-align: center;
-            margin-top: 20px;
-        }
-        
-        nav a {
-            text-decoration: none;
-            color: #333;
-            font-size: 18px;
-            margin: 0 20px;
-            transition: color 0.3s;
-        }
-        
-        nav a:hover {
-            color: #666;
-        }
-        
-        .image {
-            width: 100px;
-            height: 100px;
-            display: block;
-            /*max-width: 100%;*/
-        }
-        
-        /* Style the sections */
-        .section {
-            padding: 40px 0;
-            text-align: center;
-        }
-        
-        /* Style your projects or portfolio items */
-        .profile, .interests, .contact {
-            background-color: #fff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            padding: 20px;
-            margin-bottom: 20px;
-            text-align: center;
-        }
-         .education, .skills, .experience {
-            background-color: #fff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            padding: 20px;
-            margin-bottom: 20px;
-            text-align: center;
-        }
-
-	    ul{
-		    list-style:none;
-	    }
-        
-               
-        /* Style the footer */
-        footer {
-            text-align: center;
-            background-color: #333;
-            color: #fff;
-            padding: 10px 0;
-        }
-        
-        /* Responsive design for smaller screens */
-        @media (max-width: 768px) {
-            header h1 {
-                font-size: 28px;
-            }
-            header p {
-                font-size: 16px;
-            }
-            nav a {
-                font-size: 16px;
-                margin: 0 10px;
-            }
-            .project h3 {
-                font-size: 20px;
-            }
-            .project p {
-                font-size: 14px;
-        }
-        
-        /* Additional custom styles can be added for specific elements and sections as needed. */
-        </style>
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 </head>
+
 <body>
-    <header>
-        <h1>Thomas Hornsby</h1>
-        <p>Systems Engineer</p>
-    </header>
-    
-    <!--section class="image">
-			<img src="Images/CVPhoto.png" alt="Me">
-		</section>-->
+  <nav id="navbar" class="nav">
+    <ul>
+      <li><a href="#welcome-section">About</a></li>
+      <li><a href="projects">Projects</a></li>
+      <li><a href="contact"> Contact</a></li>
+      </ul>
+  </nav>
 
-    <section class="profile">
-        <h2>Profile</h2>
-        <p>I am a multiskilled aircraft engineer with a diverse range of experience from Business Jets to Military aircraft.</p>
-
-        <p>My skills extend over a wide range of functions. Project management, Sales, Logistics, Engineering and Continuous Improvement.</p>
-            
-        <p>I’m looking for a role that allows me to exercise my process improvement, leadership and technical knowledge.</p>
-            
-        <p>My Aspirations are to sharpen my skills in a challenging environment whilst using my creative thinking to provide effective solutions.</p>
-        <br>
-        </section>
-        
-        <section class="interests">
-        <h2>Interests</h2>
-        <p>I trained with the British Army, gaining extensive analytical and critical thinking skills as well as developing leadership, teamwork, fitness and discipline.</p>
-                            
-        <p>I enjoy learning, I’ve recently started my Master of Business Administration with a University in Valencia.</p>
-            
-        <p>My recent focuses are front end software and Spanish. My free time is shared developing these skills and spending time outdoors in the mountains, on the road or in the sea.</p>
-        </section>
-
-    <section class="contact">
-        <h2>Contact Information</h2>
-        <p>Email: Tenchi841@hotmail.co.uk</p>
-        <p>Phone: (+44) 7534895158</p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/thomas-hornsby-892901145/">LinkedIn Profile</a></p>
-        <br>
-    </section>
-
-    <section class="education">
-        <h2>Education</h2>
-        <p><strong>University:</strong> Universidad Europea - Valencia</p>
-        <p><strong>Year:</strong> 2023 - 2024</p>
-        <p><strong>Qualification:</strong> Master of Business Administration (MBA) - Pending</p>
-        <br>
-
-        <p><strong>University:</strong> University of south wales</p>
-        <p><strong>Qualification:</strong> BSc (Hons) Aircraft Engineering and Maintenance Systems Degree - First  </p>
-        <p><strong>Year:</strong> 2021 - 2023</p>
-        <br>
-
-        <p><strong>College:</strong> Longridge Teaching Center</p>
-        <p><strong>Year:</strong> 2013 - 2017</p>
-        <p><strong>Qualification:</strong> BTEC Level 5 Aeronautical Engineering Higher National Diploma - Distinction</p>
-        <p><strong>Qualification:</strong> EAL EXT Level 3 NVQ Diploma in Providing Engineering Support – Complete</p>
-        <p><strong>Qualification:</strong> EAL Level 2 NVQ Diploma in Performing Engineering Operations – Complete</p>
-        <br>
-    </section>
-
-    <section class="experience">
-        <h2>Work Experience</h2>
-        <h3>Electronic Warfare Systems Engineer - BAE Systems</h3>
-        <p><strong>Date:</strong> Oct 2021 - Present</p>
-        <p><strong>Responsibilities:</strong></p>
-        <ul>
-            <li>Managing internal and external suppliers, including site visits.</li>
-            <li>Requirements management, including customer review meetings.</li>
-            <li>Documentation preparation for design reviews.</li>
-            <li>Supervising factory and site acceptance testing.</li>
-            <li>Fault finding of rig components and systems.</li>
-            <li>Installation and integration of equipment on various systems.</li>
-            <li>Coordinating junior engineers and apprentices.</li>
-        </ul>
-
-        <h3>Capacity Planner - Bombardier</h3>
-        <p><strong>Date:</strong> Feb 2019 - Oct 2021</p>
-        <p><strong>Responsibilities:</strong></p>
-        <ul>
-            <li>Direct contact with internal and external customers, including financial departments and external vendors.</li>
-            <li>Work closely with the Regional Sales Managers and the Ops team to provide the best sales/service to external customers.</li>
-            <li>Regular phone contact and occasional face-to-face meets with customers to build and maintain good relationships.</li>
-            <li>Manage site rotas for aircraft and support staff, to ensure up to date figures and hangar availability to support in sales communications with customers and planning on site.</li>
-            <li>Chair daily meetings with Ops to present current figures and manage any changes.</li>
-            <li>Assist the planning team with customers inputs to ensure a smooth transition.</li>
-            </ul>
-
-            <h3>Aircraft Mainentance Technician - Bombardier</h3>
-        <p><strong>Date:</strong> Sep 2018 - Feb 2019</p>
-        <p><strong>Responsibilities:</strong></p>
-        <ul>
-            <li>Performing mechanical and avionic maintenance on Learjet, Challenger and Global Bombardier aircraft.</li>
-            <li>Modifications, Airworthiness Directives and Service Bulletins.</li>
-            <li>Worked to timescales set by Project leads, assisted with defect investigation and rectification.</li>
-            </ul>
-
-        <h3>Aircrew Training Systems Engineer - BAE Systems</h3>
-        <p><strong>Date:</strong> Jul 2016 - Sep 2018</p>
-        <p><strong>Responsibilities:</strong></p>
-        <ul>
-            <li>Testing aircraft simulation software, checking functionality of the systems and observing visual performance to meet requirements.</li>
-            <li>Provided support to military bases, maintaining devices and conducting on site testing.</li>
-            <li>Seconded to BAE Systems Oman in May 2017 to help set up the new Typhoon training facility at Adam Airbase.</li>
-            <li>Demonstrating project maturity to stake holders via milestones and project reviews.</li>
-            <li>Presented devices on event stands to internal and external clients.</li>
-</li>
-        </ul>
-
-        <h3>Technical Apprentice - BAE Systems</h3>
-        <p><strong>Date:</strong> Sep 2013 - Jul 2016</p>
-        <p><strong>Responsibilities:</strong></p>
-        <ul>
-            <li>Trained and developed various engineering skills and techniques. </li>
-            <li>Worked in departments; Systems Integration, Typhoon Engineering Service Support, Electronic Assembly and Test, Electronic Design, Flight Test, Cost Scheduler & Integrator.</li>
-        </ul>
-    </section>
-
-    <section class="skills">
-        <h2>Skills</h2>
-        <ul>
-            <li>Engineering – Engineering processes related to design, production and maintenance environments. Detailed Aircraft systems engineering, type specific for military and business jet aircraft.
-            </li>
-            <li>Continuous Improvement – 5s Engineering Lean Leading Academy training, experience implementing cost saving initiatives, efficiency monitoring, business case creation, bid work and tender creation.
-            </li>
-            <li>Soft skills – Microsoft Office suite of tools, document management, writing, data entry, requirement tracking, emails, web development, report preparation, PM, CRM and ERP software.
-            </li>
-            <li>Aviation – Understanding of military, private and commercial aviation operation. Through work and my journey to my Private Pilot’s License. 
-            </li>
-            <li>Security – Airport security awareness trained and military experience with physical and procedural security. 
-            </li>
-            <li>Safety – Creating risk assessments, Human factors, First aid trained, and general safety procedure related to the airfield, engineering workshops and offices. 
-            </li>
-            <li>Regulation – Aviation is heavily regulated in operation, design, manufacture and maintenance. Reviewing legislation and guidance for changes in working practices.
-            </li>
-        </ul>
-    </section>
-
-    <footer>
-        <p>&copy; 2023 Thomas Hornsby</p>
-    </footer>
-</body>
+  <section id="welcome-section" class="welcome-section"><h1>Welcome</h1>
+  <br><p><i>Take a look at my portfolio</i></p>
+  </section>
+  
+  <section id="projects" class="projects"><h1>Projects</h1>
+  <br>
+  <div class="project-tile">
+  <h2>Calculator Project</h2><img class="project-image" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/calc.png" alt="project">
+  <p><a href="https://codepen.io/freeCodeCamp/full/wgGVVX" id="profile-link" target="_blank">View me here</a></p>
+</div>
+  </section>
+  
+  <section id="contact"class="contact">
+    <h1>Lets work together...</h1>
+  <p><br><i>get in touch<i></p>
+  </section>
+  </body>
 </html>
